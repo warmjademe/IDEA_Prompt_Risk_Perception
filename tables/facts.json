@@ -1,0 +1,48 @@
+{
+ "models_done": [
+  "qwen3:8b",
+  "qwen3:14b",
+  "glm4:9b",
+  "gemma3:12b",
+  "llama3.1:8b"
+ ],
+ "models_missing": [],
+ "friedman": {
+  "n_blocks": 10,
+  "chi2": 12.685714285714283,
+  "p": 0.02650888895811125,
+  "kendall_W": 0.25371428571428567
+ },
+ "n_sig": 19,
+ "n_tests": 50,
+ "trivial": {
+  "usual": {
+   "majority": "angry",
+   "majority_f1": 0.07731694828469023,
+   "random_f1": 0.15523101087227417
+  },
+  "virus": {
+   "majority": "happy",
+   "majority_f1": 0.11316600616468515,
+   "random_f1": 0.14008473939722352
+  }
+ },
+ "best_usual": {
+  "model": "qwen3:14b",
+  "strategy": "S6_json",
+  "macro_f1": 0.7171817529517054,
+  "ci": [
+   0.6667686169442766,
+   0.7641303346586792
+  ]
+ },
+ "best_virus": {
+  "model": "glm4:9b",
+  "strategy": "S3_def",
+  "macro_f1": 0.6518749623262687,
+  "ci": [
+   0.596366678053639,
+   0.7043214506477086
+  ]
+ }
+}

@@ -1,0 +1,1846 @@
+{
+ "per_cell": [
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.6832206250105837,
+   "ci": [
+    0.6324057842082631,
+    0.7277167075890549
+   ],
+   "acc": 0.722,
+   "parse_rate": 1.0,
+   "med_latency": 1.5015
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.6736013029116478,
+   "ci": [
+    0.6222123428076937,
+    0.7204776379401249
+   ],
+   "acc": 0.708,
+   "parse_rate": 1.0,
+   "med_latency": 1.4695
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.694289223227026,
+   "ci": [
+    0.6454001368982925,
+    0.7387358857296685
+   ],
+   "acc": 0.736,
+   "parse_rate": 1.0,
+   "med_latency": 1.429
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.663455035335351,
+   "ci": [
+    0.6119007945239536,
+    0.7124553662974162
+   ],
+   "acc": 0.708,
+   "parse_rate": 1.0,
+   "med_latency": 1.454
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.6824057128412147,
+   "ci": [
+    0.6312796219176234,
+    0.7268471217476489
+   ],
+   "acc": 0.71,
+   "parse_rate": 1.0,
+   "med_latency": 8.875
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.699061235539313,
+   "ci": [
+    0.6468959182929789,
+    0.7429195645239048
+   ],
+   "acc": 0.73,
+   "parse_rate": 1.0,
+   "med_latency": 2.3
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.5189799205703073,
+   "ci": [
+    0.46722133280719585,
+    0.5654287165919196
+   ],
+   "acc": 0.54,
+   "parse_rate": 0.992,
+   "med_latency": 1.395
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.5086423491642817,
+   "ci": [
+    0.45732857738760513,
+    0.5542172801695945
+   ],
+   "acc": 0.544,
+   "parse_rate": 0.996,
+   "med_latency": 1.3805
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.5801273656099104,
+   "ci": [
+    0.522831193034622,
+    0.6332288479801018
+   ],
+   "acc": 0.66,
+   "parse_rate": 0.998,
+   "med_latency": 1.3490000000000002
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.6255076755156476,
+   "ci": [
+    0.5600147270669786,
+    0.6852712471866818
+   ],
+   "acc": 0.684,
+   "parse_rate": 1.0,
+   "med_latency": 1.3995
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.5867978711379777,
+   "ci": [
+    0.5162349844171282,
+    0.6503925220086157
+   ],
+   "acc": 0.668,
+   "parse_rate": 0.994,
+   "med_latency": 8.478
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.5747035235904965,
+   "ci": [
+    0.5206211280289413,
+    0.6262325156220807
+   ],
+   "acc": 0.624,
+   "parse_rate": 0.996,
+   "med_latency": 2.1895
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.7128806882678899,
+   "ci": [
+    0.6625269316353591,
+    0.7604621431000609
+   ],
+   "acc": 0.738,
+   "parse_rate": 0.994,
+   "med_latency": 2.2344999999999997
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.6967383284263654,
+   "ci": [
+    0.6458951483343104,
+    0.739283024959982
+   ],
+   "acc": 0.722,
+   "parse_rate": 0.996,
+   "med_latency": 2.3225
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.6996529201158271,
+   "ci": [
+    0.6473681769058682,
+    0.7439399212948321
+   ],
+   "acc": 0.72,
+   "parse_rate": 0.998,
+   "med_latency": 2.3049999999999997
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.6759218644614383,
+   "ci": [
+    0.6171848177453151,
+    0.7248464286532468
+   ],
+   "acc": 0.736,
+   "parse_rate": 0.998,
+   "med_latency": 2.2705
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.7125267894482982,
+   "ci": [
+    0.6568324920082521,
+    0.7600777152102244
+   ],
+   "acc": 0.742,
+   "parse_rate": 0.994,
+   "med_latency": 10.479
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.7115972090193551,
+   "ci": [
+    0.6606937741171396,
+    0.7561385089624001
+   ],
+   "acc": 0.732,
+   "parse_rate": 0.998,
+   "med_latency": 4.5504999999999995
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.6448366502615882,
+   "ci": [
+    0.5779871973906645,
+    0.7005360241966421
+   ],
+   "acc": 0.678,
+   "parse_rate": 0.976,
+   "med_latency": 2.379
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.5869875370507209,
+   "ci": [
+    0.522718350967504,
+    0.6442424818629278
+   ],
+   "acc": 0.592,
+   "parse_rate": 0.984,
+   "med_latency": 2.29
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.6518749623262687,
+   "ci": [
+    0.596366678053639,
+    0.7043214506477086
+   ],
+   "acc": 0.686,
+   "parse_rate": 0.99,
+   "med_latency": 2.415
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.6130340958544866,
+   "ci": [
+    0.546120183211248,
+    0.6721296045390628
+   ],
+   "acc": 0.72,
+   "parse_rate": 1.0,
+   "med_latency": 2.284
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.5871044932935771,
+   "ci": [
+    0.5229771424182681,
+    0.6478041846167957
+   ],
+   "acc": 0.656,
+   "parse_rate": 0.994,
+   "med_latency": 11.3035
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.6480405383509139,
+   "ci": [
+    0.582456666151662,
+    0.6987533715382686
+   ],
+   "acc": 0.632,
+   "parse_rate": 0.996,
+   "med_latency": 4.9825
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.5555207055424423,
+   "ci": [
+    0.5059927415166237,
+    0.6004842698507218
+   ],
+   "acc": 0.68,
+   "parse_rate": 0.998,
+   "med_latency": 3.8035
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.5379666491432079,
+   "ci": [
+    0.48840432373663095,
+    0.581236735669405
+   ],
+   "acc": 0.662,
+   "parse_rate": 0.988,
+   "med_latency": 3.891
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.6415944122421933,
+   "ci": [
+    0.5912140267171793,
+    0.6896151090023873
+   ],
+   "acc": 0.702,
+   "parse_rate": 0.984,
+   "med_latency": 3.7415000000000003
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.382274908092358,
+   "ci": [
+    0.34553767712431604,
+    0.4156286617724288
+   ],
+   "acc": 0.564,
+   "parse_rate": 1.0,
+   "med_latency": 3.8994999999999997
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.6157343848566592,
+   "ci": [
+    0.5580268099449165,
+    0.6703949707570873
+   ],
+   "acc": 0.676,
+   "parse_rate": 0.96,
+   "med_latency": 13.943999999999999
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.5790943004125246,
+   "ci": [
+    0.5280332877713494,
+    0.6268671552261045
+   ],
+   "acc": 0.7,
+   "parse_rate": 0.998,
+   "med_latency": 5.9079999999999995
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.46284349967087807,
+   "ci": [
+    0.41623599446774134,
+    0.5063646215254539
+   ],
+   "acc": 0.614,
+   "parse_rate": 0.994,
+   "med_latency": 3.715
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.4592353085181449,
+   "ci": [
+    0.3956336057028772,
+    0.519432672641664
+   ],
+   "acc": 0.606,
+   "parse_rate": 0.98,
+   "med_latency": 3.811
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.5614339826769407,
+   "ci": [
+    0.5076616503932215,
+    0.6170250160870036
+   ],
+   "acc": 0.718,
+   "parse_rate": 0.99,
+   "med_latency": 3.8485
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.17006438006438004,
+   "ci": [
+    0.14326020903488654,
+    0.19868454183489598
+   ],
+   "acc": 0.536,
+   "parse_rate": 1.0,
+   "med_latency": 3.8025
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.47378578362244345,
+   "ci": [
+    0.42509412749074926,
+    0.5186854469855166
+   ],
+   "acc": 0.648,
+   "parse_rate": 0.944,
+   "med_latency": 13.6715
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.45704360326349863,
+   "ci": [
+    0.40245092364603696,
+    0.5040034526651699
+   ],
+   "acc": 0.608,
+   "parse_rate": 1.0,
+   "med_latency": 5.754
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.6978134336946781,
+   "ci": [
+    0.6476995194589209,
+    0.7431432262730959
+   ],
+   "acc": 0.71,
+   "parse_rate": 0.998,
+   "med_latency": 1.929
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.71304116778435,
+   "ci": [
+    0.6645486759105795,
+    0.7551473990034451
+   ],
+   "acc": 0.728,
+   "parse_rate": 0.996,
+   "med_latency": 1.928
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.7103194871379586,
+   "ci": [
+    0.6630629739506024,
+    0.7501625877781564
+   ],
+   "acc": 0.726,
+   "parse_rate": 0.994,
+   "med_latency": 1.9405000000000001
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.7054588898917619,
+   "ci": [
+    0.6556515063739469,
+    0.7532826595379836
+   ],
+   "acc": 0.732,
+   "parse_rate": 1.0,
+   "med_latency": 2.1740000000000004
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.7029676028358397,
+   "ci": [
+    0.6519260398393626,
+    0.7492844898205819
+   ],
+   "acc": 0.722,
+   "parse_rate": 1.0,
+   "med_latency": 12.93
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.7171817529517054,
+   "ci": [
+    0.6667686169442766,
+    0.7641303346586792
+   ],
+   "acc": 0.736,
+   "parse_rate": 0.998,
+   "med_latency": 4.23
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.5379596412591804,
+   "ci": [
+    0.4859776952471864,
+    0.5844516803467625
+   ],
+   "acc": 0.524,
+   "parse_rate": 0.976,
+   "med_latency": 2.179
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.5404290046360942,
+   "ci": [
+    0.4852233036757122,
+    0.5891928339788067
+   ],
+   "acc": 0.546,
+   "parse_rate": 0.97,
+   "med_latency": 2.346
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.6240718450243249,
+   "ci": [
+    0.5717720204498711,
+    0.6746982802616959
+   ],
+   "acc": 0.684,
+   "parse_rate": 0.984,
+   "med_latency": 2.4555
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.6323243064512221,
+   "ci": [
+    0.5726247311897319,
+    0.6832912571414866
+   ],
+   "acc": 0.692,
+   "parse_rate": 0.994,
+   "med_latency": 2.4475
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.6334320810172823,
+   "ci": [
+    0.5680907584207655,
+    0.6893029914251696
+   ],
+   "acc": 0.72,
+   "parse_rate": 0.998,
+   "med_latency": 13.1805
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.5844286770394327,
+   "ci": [
+    0.5197634191137663,
+    0.6380854412231343
+   ],
+   "acc": 0.538,
+   "parse_rate": 0.994,
+   "med_latency": 4.443
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.6921399380941367,
+   "ci": [
+    0.6410535554702959,
+    0.7365633947943578
+   ],
+   "acc": 0.706,
+   "parse_rate": 0.996,
+   "med_latency": 0.5035000000000001
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.6904392185144846,
+   "ci": [
+    0.637180099044835,
+    0.7338532288202054
+   ],
+   "acc": 0.712,
+   "parse_rate": 0.996,
+   "med_latency": 0.519
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.704596960484858,
+   "ci": [
+    0.6574128800554137,
+    0.7468392847271719
+   ],
+   "acc": 0.73,
+   "parse_rate": 0.998,
+   "med_latency": 0.509
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.6330563801406336,
+   "ci": [
+    0.5810872502881979,
+    0.6775586378041916
+   ],
+   "acc": 0.658,
+   "parse_rate": 1.0,
+   "med_latency": 0.585
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.6883410667882948,
+   "ci": [
+    0.639213458885245,
+    0.7320068880478118
+   ],
+   "acc": 0.698,
+   "parse_rate": 1.0,
+   "med_latency": 4.8025
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.6696738081953395,
+   "ci": [
+    0.6160481498468335,
+    0.7187325952923154
+   ],
+   "acc": 0.7,
+   "parse_rate": 0.998,
+   "med_latency": 2.1895
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "n": 500,
+   "macro_f1": 0.49331225998739975,
+   "ci": [
+    0.42661875315661346,
+    0.5501407354949069
+   ],
+   "acc": 0.416,
+   "parse_rate": 0.992,
+   "med_latency": 1.159
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "n": 500,
+   "macro_f1": 0.46237060295204685,
+   "ci": [
+    0.38848159841330787,
+    0.5174345070433807
+   ],
+   "acc": 0.378,
+   "parse_rate": 0.992,
+   "med_latency": 1.2349999999999999
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "n": 500,
+   "macro_f1": 0.5485482570144642,
+   "ci": [
+    0.4838156484388861,
+    0.6010050776649092
+   ],
+   "acc": 0.526,
+   "parse_rate": 0.998,
+   "med_latency": 1.13
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "n": 500,
+   "macro_f1": 0.571405917723346,
+   "ci": [
+    0.5069976912703402,
+    0.6320896738579911
+   ],
+   "acc": 0.646,
+   "parse_rate": 1.0,
+   "med_latency": 1.152
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "n": 500,
+   "macro_f1": 0.6100147643221215,
+   "ci": [
+    0.5407091095109404,
+    0.6652895525139864
+   ],
+   "acc": 0.624,
+   "parse_rate": 1.0,
+   "med_latency": 6.167
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "n": 500,
+   "macro_f1": 0.5241084466020204,
+   "ci": [
+    0.45593077388732584,
+    0.5817550364558469
+   ],
+   "acc": 0.464,
+   "parse_rate": 0.998,
+   "med_latency": 2.2495000000000003
+  }
+ ],
+ "mcnemar": [
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "b": 17,
+   "c": 10,
+   "odds_ratio": 0.6,
+   "p": 0.24778856337070465,
+   "p_adj": 0.3951089533868801
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "b": 17,
+   "c": 24,
+   "odds_ratio": 1.4,
+   "p": 0.34888887944907765,
+   "p_adj": 0.5130718815427613
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "b": 37,
+   "c": 30,
+   "odds_ratio": 0.8133333333333334,
+   "p": 0.4638176178968696,
+   "p_adj": 0.662066379769827
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "b": 33,
+   "c": 27,
+   "odds_ratio": 0.8208955223880597,
+   "p": 0.5189580031896518,
+   "p_adj": 0.6828394778811208
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "b": 14,
+   "c": 18,
+   "odds_ratio": 1.2758620689655173,
+   "p": 0.5966148958541453,
+   "p_adj": 0.764890892120699
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "b": 25,
+   "c": 27,
+   "odds_ratio": 1.0784313725490196,
+   "p": 0.8898839652765371,
+   "p_adj": 0.9375286075148337
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "b": 14,
+   "c": 74,
+   "odds_ratio": 5.137931034482759,
+   "p": 5.0891941127085865e-11,
+   "p_adj": 3.6351386519347043e-10
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "b": 24,
+   "c": 96,
+   "odds_ratio": 3.938775510204082,
+   "p": 2.162228172529954e-11,
+   "p_adj": 1.8018568104416284e-10
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "b": 25,
+   "c": 89,
+   "odds_ratio": 3.5098039215686274,
+   "p": 1.3151843662610907e-09,
+   "p_adj": 8.219902289131817e-09
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "b": 8,
+   "c": 50,
+   "odds_ratio": 5.9411764705882355,
+   "p": 1.5702617754687065e-08,
+   "p_adj": 7.137553524857757e-08
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "b": 19,
+   "c": 11,
+   "odds_ratio": 0.5897435897435898,
+   "p": 0.20048842206597328,
+   "p_adj": 0.3698951620830663
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "b": 25,
+   "c": 16,
+   "odds_ratio": 0.6470588235294118,
+   "p": 0.21102359760880063,
+   "p_adj": 0.3698951620830663
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "b": 33,
+   "c": 32,
+   "odds_ratio": 0.9701492537313433,
+   "p": 1.0,
+   "p_adj": 1.0
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "b": 39,
+   "c": 41,
+   "odds_ratio": 1.0506329113924051,
+   "p": 0.9110721212260928,
+   "p_adj": 0.9375286075148337
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "b": 24,
+   "c": 21,
+   "odds_ratio": 0.8775510204081632,
+   "p": 0.765991824244793,
+   "p_adj": 0.8616107274239622
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "b": 52,
+   "c": 9,
+   "odds_ratio": 0.18095238095238095,
+   "p": 1.802802378388091e-08,
+   "p_adj": 7.511676576617045e-08
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "b": 20,
+   "c": 24,
+   "odds_ratio": 1.1951219512195121,
+   "p": 0.651587827208914,
+   "p_adj": 0.8144847840111424
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "b": 35,
+   "c": 56,
+   "odds_ratio": 1.591549295774648,
+   "p": 0.03544959487951911,
+   "p_adj": 0.08862398719879779
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "b": 59,
+   "c": 48,
+   "odds_ratio": 0.8151260504201681,
+   "p": 0.333705116197439,
+   "p_adj": 0.5056138124203622
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "b": 52,
+   "c": 29,
+   "odds_ratio": 0.5619047619047619,
+   "p": 0.013999473719986943,
+   "p_adj": 0.03850867873743961
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "b": 29,
+   "c": 20,
+   "odds_ratio": 0.6949152542372882,
+   "p": 0.2528697301676033,
+   "p_adj": 0.3951089533868801
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "b": 27,
+   "c": 38,
+   "odds_ratio": 1.4,
+   "p": 0.21453919400817845,
+   "p_adj": 0.3698951620830663
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "b": 81,
+   "c": 23,
+   "odds_ratio": 0.2883435582822086,
+   "p": 9.344702083080037e-09,
+   "p_adj": 4.672351041540018e-08
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "b": 49,
+   "c": 47,
+   "odds_ratio": 0.9595959595959596,
+   "p": 0.918778035364537,
+   "p_adj": 0.9375286075148337
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "b": 20,
+   "c": 30,
+   "odds_ratio": 1.4878048780487805,
+   "p": 0.20263875106454066,
+   "p_adj": 0.3698951620830663
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "b": 36,
+   "c": 32,
+   "odds_ratio": 0.8904109589041096,
+   "p": 0.7163007601543369,
+   "p_adj": 0.8527390001837344
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "b": 26,
+   "c": 78,
+   "odds_ratio": 2.9622641509433962,
+   "p": 3.277703497138629e-07,
+   "p_adj": 1.260655191207165e-06
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "b": 121,
+   "c": 82,
+   "odds_ratio": 0.6790123456790124,
+   "p": 0.007498534453206734,
+   "p_adj": 0.022054513097666862
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "b": 52,
+   "c": 69,
+   "odds_ratio": 1.3238095238095238,
+   "p": 0.14548652043450483,
+   "p_adj": 0.30309691757188506
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "b": 31,
+   "c": 28,
+   "odds_ratio": 0.9047619047619048,
+   "p": 0.7948436539828609,
+   "p_adj": 0.8639604934596313
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "b": 7,
+   "c": 16,
+   "odds_ratio": 2.2,
+   "p": 0.0931396484375,
+   "p_adj": 0.20247749660326086
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "b": 13,
+   "c": 21,
+   "odds_ratio": 1.5925925925925926,
+   "p": 0.22948101302608848,
+   "p_adj": 0.3824683550434808
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "b": 25,
+   "c": 36,
+   "odds_ratio": 1.4313725490196079,
+   "p": 0.20003136851310316,
+   "p_adj": 0.3698951620830663
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "b": 25,
+   "c": 31,
+   "odds_ratio": 1.2352941176470589,
+   "p": 0.5044037600228256,
+   "p_adj": 0.6816267027335481
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "b": 6,
+   "c": 19,
+   "odds_ratio": 3.0,
+   "p": 0.01463329792022705,
+   "p_adj": 0.03850867873743961
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "b": 11,
+   "c": 22,
+   "odds_ratio": 1.9565217391304348,
+   "p": 0.08014331245794892,
+   "p_adj": 0.18214389194988392
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "b": 12,
+   "c": 92,
+   "odds_ratio": 7.4,
+   "p": 1.953190833147217e-16,
+   "p_adj": 2.441488541434021e-15
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "b": 25,
+   "c": 109,
+   "odds_ratio": 4.294117647058823,
+   "p": 1.053309282433861e-13,
+   "p_adj": 1.053309282433861e-12
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "b": 22,
+   "c": 120,
+   "odds_ratio": 5.355555555555555,
+   "p": 1.5677310787896847e-17,
+   "p_adj": 3.9193276969742114e-16
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "b": 32,
+   "c": 39,
+   "odds_ratio": 1.2153846153846153,
+   "p": 0.4766877934342755,
+   "p_adj": 0.662066379769827
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "b": 23,
+   "c": 26,
+   "odds_ratio": 1.127659574468085,
+   "p": 0.7754496546815659,
+   "p_adj": 0.8616107274239622
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "b": 13,
+   "c": 25,
+   "odds_ratio": 1.8888888888888888,
+   "p": 0.07295138851623051,
+   "p_adj": 0.17369378218150122
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "b": 41,
+   "c": 17,
+   "odds_ratio": 0.42168674698795183,
+   "p": 0.0022325516199429227,
+   "p_adj": 0.007973398642653295
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "b": 34,
+   "c": 30,
+   "odds_ratio": 0.8840579710144928,
+   "p": 0.707980754134764,
+   "p_adj": 0.8527390001837344
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "b": 21,
+   "c": 18,
+   "odds_ratio": 0.8604651162790697,
+   "p": 0.7492586247608415,
+   "p_adj": 0.8616107274239622
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "b": 31,
+   "c": 12,
+   "odds_ratio": 0.3968253968253968,
+   "p": 0.005401572654591291,
+   "p_adj": 0.01800524218197097
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "b": 18,
+   "c": 73,
+   "odds_ratio": 3.972972972972973,
+   "p": 5.0094910534456305e-09,
+   "p_adj": 2.7830505852475723e-08
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "b": 35,
+   "c": 150,
+   "odds_ratio": 4.23943661971831,
+   "p": 3.695697583110017e-18,
+   "p_adj": 1.8478487915550086e-16
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "b": 30,
+   "c": 134,
+   "odds_ratio": 4.409836065573771,
+   "p": 6.816209762485913e-17,
+   "p_adj": 1.1360349604143188e-15
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "b": 25,
+   "c": 49,
+   "odds_ratio": 1.9411764705882353,
+   "p": 0.007084252673880493,
+   "p_adj": 0.022054513097666862
+  }
+ ],
+ "friedman": {
+  "n_blocks": 10,
+  "chi2": 12.685714285714283,
+  "p": 0.02650888895811125,
+  "kendall_W": 0.25371428571428567
+ },
+ "risk": [
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "f1": 0.8905109489051095,
+   "recall": 0.9312977099236641,
+   "precision": 0.8531468531468531
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "f1": 0.8687615526802218,
+   "recall": 0.8969465648854962,
+   "precision": 0.8422939068100358
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "f1": 0.9054545454545454,
+   "recall": 0.950381679389313,
+   "precision": 0.8645833333333334
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "f1": 0.8786127167630059,
+   "recall": 0.8702290076335878,
+   "precision": 0.8871595330739299
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "f1": 0.8757396449704142,
+   "recall": 0.8473282442748091,
+   "precision": 0.9061224489795918
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "f1": 0.8999999999999999,
+   "recall": 0.9274809160305344,
+   "precision": 0.8741007194244604
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "f1": 0.7701863354037267,
+   "recall": 0.8551724137931035,
+   "precision": 0.7005649717514124
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "f1": 0.7470588235294118,
+   "recall": 0.8758620689655172,
+   "precision": 0.6512820512820513
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "f1": 0.7586206896551725,
+   "recall": 0.9103448275862069,
+   "precision": 0.6502463054187192
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "f1": 0.8096885813148789,
+   "recall": 0.8068965517241379,
+   "precision": 0.8125
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "f1": 0.7986348122866894,
+   "recall": 0.8068965517241379,
+   "precision": 0.7905405405405406
+  },
+  {
+   "model": "gemma3:12b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "f1": 0.7947882736156351,
+   "recall": 0.8413793103448276,
+   "precision": 0.7530864197530864
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "f1": 0.8716904276985744,
+   "recall": 0.816793893129771,
+   "precision": 0.9344978165938864
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "f1": 0.8577319587628867,
+   "recall": 0.7938931297709924,
+   "precision": 0.9327354260089686
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "f1": 0.85,
+   "recall": 0.7786259541984732,
+   "precision": 0.9357798165137615
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "f1": 0.8961538461538461,
+   "recall": 0.8893129770992366,
+   "precision": 0.9031007751937985
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "f1": 0.8932806324110673,
+   "recall": 0.8625954198473282,
+   "precision": 0.9262295081967213
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "f1": 0.8764940239043825,
+   "recall": 0.8396946564885496,
+   "precision": 0.9166666666666666
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "f1": 0.7857142857142857,
+   "recall": 0.7586206896551724,
+   "precision": 0.8148148148148148
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "f1": 0.8153310104529616,
+   "recall": 0.8068965517241379,
+   "precision": 0.823943661971831
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "f1": 0.79136690647482,
+   "recall": 0.7586206896551724,
+   "precision": 0.8270676691729323
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "f1": 0.779874213836478,
+   "recall": 0.8551724137931035,
+   "precision": 0.7167630057803468
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "f1": 0.7859649122807018,
+   "recall": 0.7724137931034483,
+   "precision": 0.8
+  },
+  {
+   "model": "glm4:9b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "f1": 0.8166089965397922,
+   "recall": 0.8137931034482758,
+   "precision": 0.8194444444444444
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "f1": 0.8821292775665399,
+   "recall": 0.8854961832061069,
+   "precision": 0.8787878787878788
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "f1": 0.8853046594982079,
+   "recall": 0.9427480916030534,
+   "precision": 0.8344594594594594
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "f1": 0.8876404494382023,
+   "recall": 0.9045801526717557,
+   "precision": 0.8713235294117647
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "f1": 0.8140900195694716,
+   "recall": 0.7938931297709924,
+   "precision": 0.8353413654618473
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "f1": 0.8705882352941176,
+   "recall": 0.8473282442748091,
+   "precision": 0.8951612903225806
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "f1": 0.898876404494382,
+   "recall": 0.916030534351145,
+   "precision": 0.8823529411764706
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "f1": 0.7801857585139319,
+   "recall": 0.8689655172413793,
+   "precision": 0.7078651685393258
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "f1": 0.7223719676549866,
+   "recall": 0.9241379310344827,
+   "precision": 0.5929203539823009
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "f1": 0.7763975155279502,
+   "recall": 0.8620689655172413,
+   "precision": 0.7062146892655368
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "f1": 0.27218934911242604,
+   "recall": 0.15862068965517243,
+   "precision": 0.9583333333333334
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "f1": 0.7475409836065573,
+   "recall": 0.7862068965517242,
+   "precision": 0.7125
+  },
+  {
+   "model": "llama3.1:8b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "f1": 0.7658227848101266,
+   "recall": 0.8344827586206897,
+   "precision": 0.7076023391812866
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "f1": 0.8905950095969289,
+   "recall": 0.8854961832061069,
+   "precision": 0.8957528957528957
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "f1": 0.8948374760994264,
+   "recall": 0.8931297709923665,
+   "precision": 0.896551724137931
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "f1": 0.8831683168316832,
+   "recall": 0.851145038167939,
+   "precision": 0.9176954732510288
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "f1": 0.88671875,
+   "recall": 0.8664122137404581,
+   "precision": 0.908
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "f1": 0.9026217228464419,
+   "recall": 0.9198473282442748,
+   "precision": 0.8860294117647058
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "f1": 0.903954802259887,
+   "recall": 0.916030534351145,
+   "precision": 0.8921933085501859
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "f1": 0.6833333333333332,
+   "recall": 0.8482758620689655,
+   "precision": 0.5720930232558139
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "f1": 0.6923076923076922,
+   "recall": 0.8689655172413793,
+   "precision": 0.5753424657534246
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "f1": 0.7491856677524431,
+   "recall": 0.7931034482758621,
+   "precision": 0.7098765432098766
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "f1": 0.7530120481927711,
+   "recall": 0.8620689655172413,
+   "precision": 0.6684491978609626
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "f1": 0.7794561933534744,
+   "recall": 0.8896551724137931,
+   "precision": 0.6935483870967742
+  },
+  {
+   "model": "qwen3:14b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "f1": 0.7551622418879056,
+   "recall": 0.8827586206896552,
+   "precision": 0.6597938144329897
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S1_direct",
+   "f1": 0.8968253968253967,
+   "recall": 0.8625954198473282,
+   "precision": 0.9338842975206612
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S2_role",
+   "f1": 0.9206963249516441,
+   "recall": 0.9083969465648855,
+   "precision": 0.9333333333333333
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S3_def",
+   "f1": 0.9066666666666666,
+   "recall": 0.9083969465648855,
+   "precision": 0.9049429657794676
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S4_few",
+   "f1": 0.8365180467091294,
+   "recall": 0.7519083969465649,
+   "precision": 0.9425837320574163
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S5_cot",
+   "f1": 0.8962818003913894,
+   "recall": 0.8740458015267175,
+   "precision": 0.9196787148594378
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "usual",
+   "strategy": "S6_json",
+   "f1": 0.8968105065666042,
+   "recall": 0.9122137404580153,
+   "precision": 0.8819188191881919
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S1_direct",
+   "f1": 0.7553956834532374,
+   "recall": 0.7241379310344828,
+   "precision": 0.7894736842105263
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S2_role",
+   "f1": 0.7755102040816326,
+   "recall": 0.7862068965517242,
+   "precision": 0.7651006711409396
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S3_def",
+   "f1": 0.7692307692307692,
+   "recall": 0.7931034482758621,
+   "precision": 0.7467532467532467
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S4_few",
+   "f1": 0.7773851590106007,
+   "recall": 0.7586206896551724,
+   "precision": 0.7971014492753623
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S5_cot",
+   "f1": 0.7959183673469388,
+   "recall": 0.8068965517241379,
+   "precision": 0.785234899328859
+  },
+  {
+   "model": "qwen3:8b",
+   "domain": "virus",
+   "strategy": "S6_json",
+   "f1": 0.7987012987012988,
+   "recall": 0.8482758620689655,
+   "precision": 0.754601226993865
+  }
+ ],
+ "trivial": {
+  "usual": {
+   "majority": "angry",
+   "majority_f1": 0.07731694828469023,
+   "random_f1": 0.15523101087227417
+  },
+  "virus": {
+   "majority": "happy",
+   "majority_f1": 0.11316600616468515,
+   "random_f1": 0.14008473939722352
+  }
+ }
+}
